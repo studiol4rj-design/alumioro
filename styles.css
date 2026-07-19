@@ -121,7 +121,7 @@ a {
   top: 0;
   z-index: 20;
   display: grid;
-  grid-template-columns: 140px 1fr 260px;
+  grid-template-columns: 140px 1fr 310px;
   align-items: center;
   gap: 28px;
   min-height: 86px;
@@ -186,6 +186,7 @@ a {
   border: 1px solid transparent;
   font-weight: 800;
   text-transform: uppercase;
+  white-space: nowrap;
   letter-spacing: 0;
 }
 
