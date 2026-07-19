@@ -399,6 +399,36 @@ h1 {
   line-height: 1.7;
 }
 
+.color-note {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  align-items: center;
+  margin-top: 24px;
+}
+
+.color-note span,
+.color-note strong {
+  display: inline-flex;
+  align-items: center;
+  min-height: 36px;
+  padding: 0 14px;
+  border-radius: 5px;
+  font-size: 0.78rem;
+  font-weight: 800;
+  text-transform: uppercase;
+}
+
+.color-note span {
+  color: var(--gold);
+  border: 1px solid rgba(214, 161, 27, 0.44);
+}
+
+.color-note strong {
+  color: #171100;
+  background: var(--gold);
+}
+
 .section-heading {
   max-width: 760px;
   margin-bottom: 32px;
