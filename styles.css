@@ -372,6 +372,8 @@ h1 {
 
 .intro-strip p {
   margin: 0;
+  font-size: clamp(1.06rem, 2vw, 1.45rem);
+  line-height: 1.2;
 }
 
 .section {
