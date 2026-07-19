@@ -121,7 +121,7 @@ a {
   top: 0;
   z-index: 20;
   display: grid;
-  grid-template-columns: auto 1fr auto;
+  grid-template-columns: 140px 1fr 260px;
   align-items: center;
   gap: 28px;
   min-height: 86px;
@@ -171,6 +171,7 @@ a {
 .header-actions {
   display: flex;
   align-items: center;
+  justify-content: flex-end;
   gap: 10px;
 }
 
