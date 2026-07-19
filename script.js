@@ -1,6 +1,8 @@
 const header = document.querySelector("[data-header]");
 const toggle = document.querySelector("[data-menu-toggle]");
 const navLinks = document.querySelectorAll("[data-nav] a");
+const showroomModal = document.querySelector("[data-showroom-modal]");
+const showroomClose = document.querySelector("[data-showroom-close]");
 
 toggle?.addEventListener("click", () => {
   const isOpen = header.classList.toggle("is-open");
@@ -14,3 +16,12 @@ navLinks.forEach((link) => {
   });
 });
 
+showroomClose?.addEventListener("click", () => {
+  showroomModal?.classList.add("is-hidden");
+});
+
+showroomModal?.addEventListener("click", (event) => {
+  if (event.target === showroomModal) {
+    showroomModal.classList.add("is-hidden");
+  }
+});
