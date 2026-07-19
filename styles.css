@@ -34,6 +34,62 @@ a {
   text-decoration: none;
 }
 
+.showroom-modal {
+  position: fixed;
+  inset: 0;
+  z-index: 60;
+  display: grid;
+  place-items: center;
+  padding: 20px;
+  background: rgba(0, 0, 0, 0.68);
+}
+
+.showroom-modal.is-hidden {
+  display: none;
+}
+
+.showroom-card {
+  position: relative;
+  width: min(460px, 100%);
+  padding: 34px;
+  border: 1px solid rgba(214, 161, 27, 0.42);
+  border-radius: 8px;
+  color: var(--white);
+  background: #101012;
+  box-shadow: 0 26px 80px rgba(0, 0, 0, 0.45);
+}
+
+.showroom-card h2 {
+  margin-bottom: 14px;
+  font-size: clamp(1.8rem, 5vw, 2.6rem);
+  line-height: 1.05;
+}
+
+.showroom-card p:not(.eyebrow) {
+  margin-bottom: 22px;
+  color: rgba(255, 255, 255, 0.78);
+  line-height: 1.6;
+}
+
+.showroom-close {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  width: 36px;
+  height: 36px;
+  border: 0;
+  color: rgba(255, 255, 255, 0.74);
+  background: transparent;
+  font-size: 2rem;
+  line-height: 1;
+  cursor: pointer;
+}
+
+.showroom-close:hover,
+.showroom-close:focus-visible {
+  color: var(--gold);
+}
+
 .showroom-fixed {
   position: fixed;
   right: 18px;
