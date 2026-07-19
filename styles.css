@@ -686,8 +686,8 @@ h1 {
 
 .footer-grid {
   display: grid;
-  grid-template-columns: 1.25fr repeat(3, minmax(0, 1fr));
-  gap: 34px;
+  grid-template-columns: 1.4fr 1fr 1fr;
+  gap: clamp(28px, 6vw, 72px);
   padding: 44px clamp(20px, 6vw, 86px);
 }
 
@@ -716,6 +716,28 @@ h1 {
 .footer-grid a:hover,
 .footer-grid a:focus-visible {
   color: var(--gold);
+}
+
+.footer-grid .footer-budget {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: fit-content;
+  min-height: 40px;
+  margin-bottom: 10px;
+  padding: 0 16px;
+  border-radius: 5px;
+  background: var(--gold);
+  color: #171100;
+  font-size: 0.82rem;
+  font-weight: 800;
+  text-transform: uppercase;
+}
+
+.footer-grid .footer-budget:hover,
+.footer-grid .footer-budget:focus-visible {
+  color: #171100;
+  filter: brightness(1.08);
 }
 
 .footer-brand p {
