@@ -688,10 +688,6 @@ h1 {
   background: #f1eee7;
 }
 
-.showcase-card img.showcase-image-contain {
-  object-fit: contain;
-}
-
 .showcase-card h3 {
   margin: 22px 22px 10px;
   font-size: 1rem;
