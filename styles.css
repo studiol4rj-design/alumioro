@@ -168,6 +168,12 @@ a {
   width: 100%;
 }
 
+.header-actions {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
 .header-cta,
 .button {
   display: inline-flex;
@@ -186,6 +192,12 @@ a {
 .button.primary {
   background: var(--gold);
   color: #171100;
+}
+
+.header-cta.online-store {
+  border-color: rgba(214, 161, 27, 0.58);
+  background: transparent;
+  color: var(--gold);
 }
 
 .button.secondary {
@@ -748,7 +760,7 @@ h1 {
   }
 
   .site-nav,
-  .header-cta {
+  .header-actions {
     display: none;
   }
 
@@ -760,9 +772,14 @@ h1 {
     padding-top: 8px;
   }
 
-  .site-header.is-open .header-cta {
+  .site-header.is-open .header-actions {
     grid-column: 1 / -1;
-    display: inline-flex;
+    display: flex;
+    justify-content: stretch;
+  }
+
+  .site-header.is-open .header-cta {
+    flex: 1;
   }
 
   .hero {
