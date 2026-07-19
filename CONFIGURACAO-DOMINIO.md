@@ -1,6 +1,6 @@
 # Configuracao de dominio - Alumioro
 
-Dominio previsto: `alumioro.com.br`
+Dominio canonico: `www.alumioro.com.br`
 
 Site atual no GitHub Pages: `https://studiol4rj-design.github.io/alumioro/`
 
@@ -39,7 +39,7 @@ Remova registros conflitantes de `A`, `AAAA`, `ALIAS`, `ANAME` ou `CNAME` que ap
 Depois de confirmar o dominio final, criar na raiz do repositorio um arquivo chamado `CNAME` com apenas:
 
 ```txt
-alumioro.com.br
+www.alumioro.com.br
 ```
 
 Em seguida, publicar no GitHub Pages e ativar `Enforce HTTPS` quando o certificado estiver disponivel.

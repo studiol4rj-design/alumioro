@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://alumioro.com.br/sitemap.xml
+Sitemap: https://www.alumioro.com.br/sitemap.xml
