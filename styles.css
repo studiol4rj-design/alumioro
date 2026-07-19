@@ -718,28 +718,6 @@ h1 {
   color: var(--gold);
 }
 
-.footer-grid .footer-budget {
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  width: fit-content;
-  min-height: 40px;
-  margin-bottom: 10px;
-  padding: 0 16px;
-  border-radius: 5px;
-  background: var(--gold);
-  color: #171100;
-  font-size: 0.82rem;
-  font-weight: 800;
-  text-transform: uppercase;
-}
-
-.footer-grid .footer-budget:hover,
-.footer-grid .footer-budget:focus-visible {
-  color: #171100;
-  filter: brightness(1.08);
-}
-
 .footer-brand p {
   max-width: 300px;
 }
